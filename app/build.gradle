@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.0.2"
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "mindmine.com.welcometol"
@@ -12,8 +12,7 @@ android {
         versionName "1.0"
     }
     buildTypes {
-        release {
-            runProguard false
+        release {""
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
